@@ -15,9 +15,7 @@ if num in lista:
     # e depois converter em uma string
     new_list = list(str(num))
     # Saída da lista com suas posições
-    print(new_list[0])
-    print(new_list[1])
-    print(new_list[2])
+    print(new_list)
 else:
     # Caso a condição não seja atendida.
     print("Número não se encontra no intervalo de 100 a 999, tente novamente.")
